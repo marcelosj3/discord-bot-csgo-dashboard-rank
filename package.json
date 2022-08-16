@@ -11,7 +11,8 @@
     "dev": "nodemon src/bot.ts",
     "build": "tsc",
     "get-invite-link": "node dist/utils/invite-link/invite-link.js",
-    "release": "standard-version"
+    "release": "standard-version",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "axios": "^0.27.2",

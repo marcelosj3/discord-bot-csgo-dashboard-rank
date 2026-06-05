@@ -12,7 +12,7 @@
     "build": "tsc",
     "get-invite-link": "node dist/utils/invite-link/invite-link.js",
     "release": "standard-version",
-    "test": "node .github/setup.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "axios": "^0.27.2",
